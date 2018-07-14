@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD882C2E20FA452B0010D207 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD882C2D20FA452B0010D207 /* AppDelegate.m */; };
+		BD882C3120FA452B0010D207 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD882C3020FA452B0010D207 /* ViewController.m */; };
+		BD882C3420FA452B0010D207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD882C3220FA452B0010D207 /* Main.storyboard */; };
+		BD882C3620FA452C0010D207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD882C3520FA452C0010D207 /* Assets.xcassets */; };
+		BD882C3920FA452C0010D207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD882C3720FA452C0010D207 /* LaunchScreen.storyboard */; };
+		BD882C3C20FA452C0010D207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD882C3B20FA452C0010D207 /* main.m */; };
+		BD882C4620FA452C0010D207 /* XHCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD882C4520FA452C0010D207 /* XHCardTests.m */; };
+		BD882C5120FA452C0010D207 /* XHCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD882C5020FA452C0010D207 /* XHCardUITests.m */; };
+		BD882C6020FA45540010D207 /* XHCardSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD882C5F20FA45540010D207 /* XHCardSwitchView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD882C4220FA452C0010D207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD882C2120FA452B0010D207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD882C2820FA452B0010D207;
+			remoteInfo = XHCard;
+		};
+		BD882C4D20FA452C0010D207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD882C2120FA452B0010D207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD882C2820FA452B0010D207;
+			remoteInfo = XHCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD882C2920FA452B0010D207 /* XHCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD882C2C20FA452B0010D207 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD882C2D20FA452B0010D207 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD882C2F20FA452B0010D207 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD882C3020FA452B0010D207 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD882C3320FA452B0010D207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD882C3520FA452C0010D207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD882C3820FA452C0010D207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD882C3A20FA452C0010D207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD882C3B20FA452C0010D207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD882C4120FA452C0010D207 /* XHCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD882C4520FA452C0010D207 /* XHCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHCardTests.m; sourceTree = "<group>"; };
+		BD882C4720FA452C0010D207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD882C4C20FA452C0010D207 /* XHCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD882C5020FA452C0010D207 /* XHCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHCardUITests.m; sourceTree = "<group>"; };
+		BD882C5220FA452C0010D207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD882C5E20FA45540010D207 /* XHCardSwitchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHCardSwitchView.h; sourceTree = "<group>"; };
+		BD882C5F20FA45540010D207 /* XHCardSwitchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHCardSwitchView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD882C2620FA452B0010D207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD882C3E20FA452C0010D207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD882C4920FA452C0010D207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD882C2020FA452B0010D207 = {
+			isa = PBXGroup;
+			children = (
+				BD882C2B20FA452B0010D207 /* XHCard */,
+				BD882C4420FA452C0010D207 /* XHCardTests */,
+				BD882C4F20FA452C0010D207 /* XHCardUITests */,
+				BD882C2A20FA452B0010D207 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD882C2A20FA452B0010D207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD882C2920FA452B0010D207 /* XHCard.app */,
+				BD882C4120FA452C0010D207 /* XHCardTests.xctest */,
+				BD882C4C20FA452C0010D207 /* XHCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD882C2B20FA452B0010D207 /* XHCard */ = {
+			isa = PBXGroup;
+			children = (
+				BD882C2C20FA452B0010D207 /* AppDelegate.h */,
+				BD882C2D20FA452B0010D207 /* AppDelegate.m */,
+				BD882C2F20FA452B0010D207 /* ViewController.h */,
+				BD882C3020FA452B0010D207 /* ViewController.m */,
+				BD882C5E20FA45540010D207 /* XHCardSwitchView.h */,
+				BD882C5F20FA45540010D207 /* XHCardSwitchView.m */,
+				BD882C3220FA452B0010D207 /* Main.storyboard */,
+				BD882C3520FA452C0010D207 /* Assets.xcassets */,
+				BD882C3720FA452C0010D207 /* LaunchScreen.storyboard */,
+				BD882C3A20FA452C0010D207 /* Info.plist */,
+				BD882C3B20FA452C0010D207 /* main.m */,
+			);
+			path = XHCard;
+			sourceTree = "<group>";
+		};
+		BD882C4420FA452C0010D207 /* XHCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD882C4520FA452C0010D207 /* XHCardTests.m */,
+				BD882C4720FA452C0010D207 /* Info.plist */,
+			);
+			path = XHCardTests;
+			sourceTree = "<group>";
+		};
+		BD882C4F20FA452C0010D207 /* XHCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD882C5020FA452C0010D207 /* XHCardUITests.m */,
+				BD882C5220FA452C0010D207 /* Info.plist */,
+			);
+			path = XHCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD882C2820FA452B0010D207 /* XHCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD882C5520FA452C0010D207 /* Build configuration list for PBXNativeTarget "XHCard" */;
+			buildPhases = (
+				BD882C2520FA452B0010D207 /* Sources */,
+				BD882C2620FA452B0010D207 /* Frameworks */,
+				BD882C2720FA452B0010D207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHCard;
+			productName = XHCard;
+			productReference = BD882C2920FA452B0010D207 /* XHCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD882C4020FA452C0010D207 /* XHCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD882C5820FA452C0010D207 /* Build configuration list for PBXNativeTarget "XHCardTests" */;
+			buildPhases = (
+				BD882C3D20FA452C0010D207 /* Sources */,
+				BD882C3E20FA452C0010D207 /* Frameworks */,
+				BD882C3F20FA452C0010D207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD882C4320FA452C0010D207 /* PBXTargetDependency */,
+			);
+			name = XHCardTests;
+			productName = XHCardTests;
+			productReference = BD882C4120FA452C0010D207 /* XHCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD882C4B20FA452C0010D207 /* XHCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD882C5B20FA452C0010D207 /* Build configuration list for PBXNativeTarget "XHCardUITests" */;
+			buildPhases = (
+				BD882C4820FA452C0010D207 /* Sources */,
+				BD882C4920FA452C0010D207 /* Frameworks */,
+				BD882C4A20FA452C0010D207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD882C4E20FA452C0010D207 /* PBXTargetDependency */,
+			);
+			name = XHCardUITests;
+			productName = XHCardUITests;
+			productReference = BD882C4C20FA452C0010D207 /* XHCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD882C2120FA452B0010D207 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "信昊";
+				TargetAttributes = {
+					BD882C2820FA452B0010D207 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BD882C4020FA452C0010D207 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BD882C2820FA452B0010D207;
+					};
+					BD882C4B20FA452C0010D207 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BD882C2820FA452B0010D207;
+					};
+				};
+			};
+			buildConfigurationList = BD882C2420FA452B0010D207 /* Build configuration list for PBXProject "XHCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD882C2020FA452B0010D207;
+			productRefGroup = BD882C2A20FA452B0010D207 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD882C2820FA452B0010D207 /* XHCard */,
+				BD882C4020FA452C0010D207 /* XHCardTests */,
+				BD882C4B20FA452C0010D207 /* XHCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD882C2720FA452B0010D207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD882C3920FA452C0010D207 /* LaunchScreen.storyboard in Resources */,
+				BD882C3620FA452C0010D207 /* Assets.xcassets in Resources */,
+				BD882C3420FA452B0010D207 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD882C3F20FA452C0010D207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD882C4A20FA452C0010D207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD882C2520FA452B0010D207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD882C6020FA45540010D207 /* XHCardSwitchView.m in Sources */,
+				BD882C3120FA452B0010D207 /* ViewController.m in Sources */,
+				BD882C3C20FA452C0010D207 /* main.m in Sources */,
+				BD882C2E20FA452B0010D207 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD882C3D20FA452C0010D207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD882C4620FA452C0010D207 /* XHCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD882C4820FA452C0010D207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD882C5120FA452C0010D207 /* XHCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD882C4320FA452C0010D207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD882C2820FA452B0010D207 /* XHCard */;
+			targetProxy = BD882C4220FA452C0010D207 /* PBXContainerItemProxy */;
+		};
+		BD882C4E20FA452C0010D207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD882C2820FA452B0010D207 /* XHCard */;
+			targetProxy = BD882C4D20FA452C0010D207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD882C3220FA452B0010D207 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD882C3320FA452B0010D207 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD882C3720FA452C0010D207 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD882C3820FA452C0010D207 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD882C5320FA452C0010D207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD882C5420FA452C0010D207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD882C5620FA452C0010D207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XHCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.XHCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD882C5720FA452C0010D207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XHCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.XHCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD882C5920FA452C0010D207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XHCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.XHCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHCard.app/XHCard";
+			};
+			name = Debug;
+		};
+		BD882C5A20FA452C0010D207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XHCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.XHCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHCard.app/XHCard";
+			};
+			name = Release;
+		};
+		BD882C5C20FA452C0010D207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XHCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.XHCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XHCard;
+			};
+			name = Debug;
+		};
+		BD882C5D20FA452C0010D207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XHCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.XHCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XHCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD882C2420FA452B0010D207 /* Build configuration list for PBXProject "XHCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD882C5320FA452C0010D207 /* Debug */,
+				BD882C5420FA452C0010D207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD882C5520FA452C0010D207 /* Build configuration list for PBXNativeTarget "XHCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD882C5620FA452C0010D207 /* Debug */,
+				BD882C5720FA452C0010D207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD882C5820FA452C0010D207 /* Build configuration list for PBXNativeTarget "XHCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD882C5920FA452C0010D207 /* Debug */,
+				BD882C5A20FA452C0010D207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD882C5B20FA452C0010D207 /* Build configuration list for PBXNativeTarget "XHCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD882C5C20FA452C0010D207 /* Debug */,
+				BD882C5D20FA452C0010D207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD882C2120FA452B0010D207 /* Project object */;
+}
